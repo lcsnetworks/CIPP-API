@@ -23,7 +23,7 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
-          app-name: 'yourfunctionappnamehere' # Change this to your function app name (eg cippdh4ch)
+          app-name: 'cippl2cpm' # Change this to your function app name (eg cippdh4ch)
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_03BA3ABDE32745BEB29757DCB89AAB9F }} # Change this to your repository secret name
